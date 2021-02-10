@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
         }
         else {
             TempDownload td = new TempDownload();
-            apiurl = "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&APPID=4c762db3cd7b8228ad3be9a0b94e57e7";
+            apiurl = "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&APPID=your API ID key";
             td.execute(apiurl);
             mgr.hideSoftInputFromWindow(temptxt.getWindowToken(),0);
         }
